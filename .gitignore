@@ -98,3 +98,6 @@ test/cache/*
 /doc/doxygen/
 
 contrib/devtools/split-debug.sh
+.qmake.stash
+crossplatformskeleton.app
+crossplatformskeleton.pro.user
