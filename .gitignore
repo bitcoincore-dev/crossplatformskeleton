@@ -98,3 +98,10 @@ test/cache/*
 /doc/doxygen/
 
 contrib/devtools/split-debug.sh
+.qmake.stash
+crossplatformskeleton.pro.user
+src/config/*
+*.app
+dist
+src/forms/ui_mainwindow.h
+src/moc_mainwindow.cpp
