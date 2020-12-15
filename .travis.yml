@@ -47,6 +47,7 @@ script:
     - if [ "$CHECK_DOC" = 1 -a "$TRAVIS_REPO_SLUG" = "bitcoincore-dev/crossplatformskeleton" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then git fetch --unshallow; fi
     - export TRAVIS_COMMIT_LOG=`git log --format=fuller -1`
     - ./autogen.sh
+    - ./configure
 after_script:
     - echo $TRAVIS_COMMIT_RANGE
     - echo $TRAVIS_COMMIT_LOG
