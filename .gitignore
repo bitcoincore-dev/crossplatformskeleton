@@ -101,3 +101,7 @@ contrib/devtools/split-debug.sh
 .qmake.stash
 crossplatformskeleton.app
 crossplatformskeleton.pro.user
+src/config/dummy-app-config.h
+dist
+src/forms/ui_mainwindow.h
+src/moc_mainwindow.cpp

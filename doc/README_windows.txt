@@ -1,0 +1,1 @@
+Look at share/setup.nsi.in for how this is configured.
