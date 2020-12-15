@@ -1,0 +1,1 @@
+libapplication_a-qrc_application.o: qrc_application.cpp

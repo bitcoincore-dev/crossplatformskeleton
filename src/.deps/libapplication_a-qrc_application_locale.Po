@@ -1,0 +1,1 @@
+libapplication_a-qrc_application_locale.o: qrc_application_locale.cpp
