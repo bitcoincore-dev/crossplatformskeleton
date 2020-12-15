@@ -48,6 +48,7 @@ script:
     - export TRAVIS_COMMIT_LOG=`git log --format=fuller -1`
     - ./autogen.sh
     - ./configure
+    - make
 after_script:
     - echo $TRAVIS_COMMIT_RANGE
     - echo $TRAVIS_COMMIT_LOG
