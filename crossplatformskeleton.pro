@@ -6,6 +6,9 @@ TEMPLATE = app
 TARGET = crossplatformskeleton
 INCLUDEPATH += .
 
+QT       += core gui
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
 # You can make your code fail to compile if you use deprecated APIs.
 # In order to do so, uncomment the following line.
 # Please consult the documentation of the deprecated API in order to know

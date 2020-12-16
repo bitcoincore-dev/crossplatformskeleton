@@ -12,3 +12,4 @@ Features
 --------
 * Supports Linux, Windows and macOS
 * Cross compile system (see /depends) to compile static binaries for macOX, Windows on Linux
+* Github workflows example config
