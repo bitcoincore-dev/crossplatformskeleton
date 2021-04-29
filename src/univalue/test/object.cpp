@@ -9,7 +9,7 @@
 #include <map>
 #include <cassert>
 #include <stdexcept>
-#include <univalue.h>
+#include "../include/univalue.h"
 
 #define BOOST_FIXTURE_TEST_SUITE(a, b)
 #define BOOST_AUTO_TEST_CASE(funcName) void funcName()
