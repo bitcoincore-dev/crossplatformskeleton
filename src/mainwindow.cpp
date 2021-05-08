@@ -4,7 +4,6 @@
 
 #include "mainwindow.h"
 #include "forms/ui_mainwindow.h"
-//#include <qt/overviewpage.moc>
 
 MainWindow::MainWindow(QMainWindow *parent) :
     QMainWindow(parent),

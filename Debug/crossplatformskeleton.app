@@ -1,0 +1,1 @@
+/tmp/crossplatformskeleton.dst/Applications/crossplatformskeleton.app
