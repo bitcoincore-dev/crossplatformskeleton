@@ -105,3 +105,5 @@ src/config/*
 dist
 src/forms/ui_mainwindow.h
 src/moc_mainwindow.cpp
+
+crossplatformskeleton.xcodeproj/xcshareddata/
