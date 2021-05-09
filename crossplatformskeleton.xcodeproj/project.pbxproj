@@ -16,302 +16,6 @@
 			shellScript = "make -C /Users/git/crossplatformskeleton -f crossplatformskeleton.xcodeproj/qt_makeqmake.mak";
 			showEnvVarsInLog = "0";
 		};
-		B6D03577FB472A35D716EE8B = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/qrc_application.cpp";
-			name = "qrc_application.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		9D62BB1477FF12A4F78D2007 = {
-			fileRef = "B6D03577FB472A35D716EE8B";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		165F4511BC18E6A14D4F62BB = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/qrc_application_locale.cpp";
-			name = "qrc_application_locale.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		AB87DB0C57D1138A148603C3 = {
-			fileRef = "165F4511BC18E6A14D4F62BB";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		E8ECDD786FA4500A88FBAA26 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/main.cpp";
-			name = "main.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		B10193784CB5CEC97A5B75B4 = {
-			fileRef = "E8ECDD786FA4500A88FBAA26";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		04AAF1A06DE7B62550DB0EB1 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/mainwindow.cpp";
-			name = "mainwindow.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		0550470D4D2C89B03A5147D9 = {
-			fileRef = "04AAF1A06DE7B62550DB0EB1";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		79F979BA0C2D9CACA311FF90 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/gen/gen.cpp";
-			name = "gen.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		EE68C0748CA07FCF79806661 = {
-			fileRef = "79F979BA0C2D9CACA311FF90";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		D2849CEA506C4CF408BBE98D = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue.cpp";
-			name = "univalue.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		10F4E0D693CA29C72845391C = {
-			fileRef = "D2849CEA506C4CF408BBE98D";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		A76B9832DE6843C220221FD4 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_get.cpp";
-			name = "univalue_get.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		0A713C31BB7B5880B7CBF87F = {
-			fileRef = "A76B9832DE6843C220221FD4";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		95C481E32F2A183449925BBF = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_read.cpp";
-			name = "univalue_read.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		1664331B22D9C9DA48101673 = {
-			fileRef = "95C481E32F2A183449925BBF";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		CF63B4AA8C0D590B5E742309 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_write.cpp";
-			name = "univalue_write.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		BCC057F4E10E3212A3F2A6F3 = {
-			fileRef = "CF63B4AA8C0D590B5E742309";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		ADF945D016175C0917FB7BC7 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/test/no_nul.cpp";
-			name = "no_nul.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		59330D6C212E2812359EBB5F = {
-			fileRef = "ADF945D016175C0917FB7BC7";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		347B3088B85E1B725C416DFE = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/test/object.cpp";
-			name = "object.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		61073940BF05665E3746FFE4 = {
-			fileRef = "347B3088B85E1B725C416DFE";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		2E62A25F47934C35C4759CAB = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/test/test_json.cpp";
-			name = "test_json.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		08D8A1213EC2194D542720D0 = {
-			fileRef = "2E62A25F47934C35C4759CAB";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		DC28F57DDF97B6C56E719DC2 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/test/unitester.cpp";
-			name = "unitester.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		45631AB8BDE7E47A81D62D3A = {
-			fileRef = "DC28F57DDF97B6C56E719DC2";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		6D1CD3B9841860E4C5E4A7A1 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/moc_mainwindow.cpp";
-			name = "moc_mainwindow.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		1B7D0E6BE808C17F1734E846 = {
-			fileRef = "6D1CD3B9841860E4C5E4A7A1";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		515FE5E337A4D278C8928121 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/ui_mainwindow.h";
-			name = "ui_mainwindow.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		9F3817AE9912E5AD33CC3DC3 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/mainwindow.h";
-			name = "mainwindow.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		F83E6DC46A13339796BD3747 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/config/dummy-app-config.h";
-			name = "dummy-app-config.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		B47955DE0B0491E23488CC43 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/forms/ui_mainwindow.h";
-			name = "ui_mainwindow.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		C76D7AD36D3B59982D7275BB = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/univalue-config.h";
-			name = "univalue-config.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		5A20348C998AF83A44B8BDD9 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/include/univalue.h";
-			name = "univalue.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		19D9971B900D5A0AF7E972BE = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_escapes.h";
-			name = "univalue_escapes.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		5F40691656482D3222415F1B = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_utffilter.h";
-			name = "univalue_utffilter.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		2315360B41D35716333112B4 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/application.qrc";
-			name = "application.qrc";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "text";
-		};
-		136EB494AE8CCD307583795A = {
-			fileRef = "2315360B41D35716333112B4";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		32127BBBAFC3B6A3E69F55E6 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/application_locale.qrc";
-			name = "application_locale.qrc";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "text";
-		};
-		0787C186070692CE98FF2512 = {
-			fileRef = "32127BBBAFC3B6A3E69F55E6";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
 		4180476CBDE07A397E547A59 = {
 			isa = PBXFileReference;
 			path = "/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/features/data/dummy.cpp";
@@ -327,151 +31,17 @@
 					);
 			};
 		};
-		199369107F42A00DF41E1970 = {
+		26D51BB5CB0C40BD39F6B466 = {
 			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/src/forms/mainwindow.ui";
-			name = "mainwindow.ui";
+			path = "/Users/git/crossplatformskeleton/crossplatformskeleton.creator";
+			name = "crossplatformskeleton.creator";
 			sourceTree = "<absolute>";
-		};
-		8827080620453EDF051E72EA = {
-			fileRef = "199369107F42A00DF41E1970";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		C7880FD12AC26E1327A85361 = {
-			isa = PBXFileReference;
-			path = "/Users/git/crossplatformskeleton/crossplatformskeleton.pro";
-			name = "crossplatformskeleton.pro";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "text";
 		};
 		BD23699E54257F7B2F603A01 = {
 			isa = PBXFileReference;
 			path = "/Users/git/crossplatformskeleton/.qmake.stash";
 			name = ".qmake.stash";
 			sourceTree = "<absolute>";
-		};
-		25B08E2869634E9BCBA333A2 = {
-			isa = PBXGroup;
-			children = (
-				"6D1CD3B9841860E4C5E4A7A1",
-				"515FE5E337A4D278C8928121");
-			name = "Generated Sources";
-			sourceTree = "<group>";
-		};
-		F380266849BE7CF802A85CCF = {
-			isa = PBXGroup;
-			children = (
-				"2315360B41D35716333112B4",
-				"32127BBBAFC3B6A3E69F55E6");
-			name = "src";
-			sourceTree = "<group>";
-		};
-		FB3C908FA6A710AAAE4CE3AA = {
-			isa = PBXGroup;
-			children = (
-				"E05449BA1012197F4161CB7D");
-			name = "src";
-			sourceTree = "<group>";
-		};
-		E05449BA1012197F4161CB7D = {
-			isa = PBXGroup;
-			children = (
-				"199369107F42A00DF41E1970");
-			name = "forms";
-			sourceTree = "<group>";
-		};
-		921315FAA7F261D737F4F4C7 = {
-			isa = PBXGroup;
-			children = (
-				"E8ECDD786FA4500A88FBAA26",
-				"04AAF1A06DE7B62550DB0EB1",
-				"00058F791DC992377A282F8A",
-				"9F3817AE9912E5AD33CC3DC3",
-				"9D6A7FA7287199C1BCEC74AD",
-				"C64A1F20AA88CF2069834919");
-			name = "src";
-			sourceTree = "<group>";
-		};
-		9D6A7FA7287199C1BCEC74AD = {
-			isa = PBXGroup;
-			children = (
-				"F83E6DC46A13339796BD3747");
-			name = "config";
-			sourceTree = "<group>";
-		};
-		C64A1F20AA88CF2069834919 = {
-			isa = PBXGroup;
-			children = (
-				"B47955DE0B0491E23488CC43");
-			name = "forms";
-			sourceTree = "<group>";
-		};
-		00058F791DC992377A282F8A = {
-			isa = PBXGroup;
-			children = (
-				"1C2179BC256CBC60A197A2E9",
-				"9B51A2D7B8E36CC388D4BAD3",
-				"095F6E49313CF8763790CA46",
-				"C76D7AD36D3B59982D7275BB",
-				"94FDB47EBF10F29C475F39BB");
-			name = "univalue";
-			sourceTree = "<group>";
-		};
-		1C2179BC256CBC60A197A2E9 = {
-			isa = PBXGroup;
-			children = (
-				"79F979BA0C2D9CACA311FF90");
-			name = "gen";
-			sourceTree = "<group>";
-		};
-		94FDB47EBF10F29C475F39BB = {
-			isa = PBXGroup;
-			children = (
-				"5A20348C998AF83A44B8BDD9");
-			name = "include";
-			sourceTree = "<group>";
-		};
-		9B51A2D7B8E36CC388D4BAD3 = {
-			isa = PBXGroup;
-			children = (
-				"D2849CEA506C4CF408BBE98D",
-				"A76B9832DE6843C220221FD4",
-				"95C481E32F2A183449925BBF",
-				"CF63B4AA8C0D590B5E742309",
-				"19D9971B900D5A0AF7E972BE",
-				"5F40691656482D3222415F1B");
-			name = "lib";
-			sourceTree = "<group>";
-		};
-		095F6E49313CF8763790CA46 = {
-			isa = PBXGroup;
-			children = (
-				"ADF945D016175C0917FB7BC7",
-				"347B3088B85E1B725C416DFE",
-				"2E62A25F47934C35C4759CAB",
-				"DC28F57DDF97B6C56E719DC2");
-			name = "test";
-			sourceTree = "<group>";
-		};
-		87DF60DE337FB58864343E39 = {
-			isa = PBXGroup;
-			children = (
-				"F380266849BE7CF802A85CCF");
-			name = "Resources";
-			sourceTree = "<group>";
-		};
-		2EB56BE3C2D93CDAB0C52E67 = {
-			isa = PBXGroup;
-			children = (
-				"B6D03577FB472A35D716EE8B",
-				"165F4511BC18E6A14D4F62BB",
-				"921315FAA7F261D737F4F4C7");
-			name = "Sources";
-			sourceTree = "<group>";
 		};
 		B8254625CFD509ED2A24A166 = {
 			isa = PBXGroup;
@@ -480,17 +50,10 @@
 			name = "Sources [moc_predefs]";
 			sourceTree = "<group>";
 		};
-		12E908B8A1C3C07C115504F5 = {
-			isa = PBXGroup;
-			children = (
-				"FB3C908FA6A710AAAE4CE3AA");
-			name = "Sources [uic]";
-			sourceTree = "<group>";
-		};
 		74B182DB50CB5611B5C1C297 = {
 			isa = PBXGroup;
 			children = (
-				"C7880FD12AC26E1327A85361",
+				"26D51BB5CB0C40BD39F6B466",
 				"BD23699E54257F7B2F603A01");
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -509,38 +72,10 @@
 		F7E50F631C51CD5B5DC0BC43 = {
 			buildActionMask = 2147483647;
 			files = (
-				"9D62BB1477FF12A4F78D2007",
-				"AB87DB0C57D1138A148603C3",
-				"B10193784CB5CEC97A5B75B4",
-				"0550470D4D2C89B03A5147D9",
-				"EE68C0748CA07FCF79806661",
-				"10F4E0D693CA29C72845391C",
-				"0A713C31BB7B5880B7CBF87F",
-				"1664331B22D9C9DA48101673",
-				"BCC057F4E10E3212A3F2A6F3",
-				"59330D6C212E2812359EBB5F",
-				"61073940BF05665E3746FFE4",
-				"08D8A1213EC2194D542720D0",
-				"45631AB8BDE7E47A81D62D3A",
-				"1B7D0E6BE808C17F1734E846",
 				"1E312F7A11FEE5BB64123427");
 			isa = PBXSourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Compile Sources";
-		};
-		AAD167B8655C8EE4E807D709 = {
-			isa = PBXFileReference;
-			name = "QtWidgets.framework";
-			path = "/usr/local/Cellar/qt/6.0.3_2/lib/QtWidgets.framework";
-			refType = 0;
-			sourceTree = "<absolute>";
-			lastKnownFileType = "wrapper.framework";
-		};
-		EC9B1411EC1A211402099A0A = {
-			fileRef = "AAD167B8655C8EE4E807D709";
-			isa = PBXBuildFile;
-			settings = {
-			};
 		};
 		6E1C567B38FB58F727F82FF6 = {
 			isa = PBXFileReference;
@@ -670,7 +205,6 @@
 		};
 		AF39DD055C3EF8226FBE929D = {
 			children = (
-				"AAD167B8655C8EE4E807D709",
 				"6E1C567B38FB58F727F82FF6",
 				"723F90793B2C195E2CCB2233",
 				"3A8EF9C62A8D4790CBB89CEA",
@@ -687,7 +221,6 @@
 		D1C883685E82D5676953459A = {
 			buildActionMask = 2147483647;
 			files = (
-				"EC9B1411EC1A211402099A0A",
 				"EA835AEC0D5FAEA531C11568",
 				"F2A75ACAC9DF6A3F4E5711E7",
 				"61EEC397DC8556BF8C4E36A7",
@@ -735,11 +268,7 @@
 		};
 		E8C543AB96796ECAA2E65C57 = {
 			children = (
-				"2EB56BE3C2D93CDAB0C52E67",
-				"25B08E2869634E9BCBA333A2",
-				"87DF60DE337FB58864343E39",
 				"B8254625CFD509ED2A24A166",
-				"12E908B8A1C3C07C115504F5",
 				"74B182DB50CB5611B5C1C297",
 				"AF39DD055C3EF8226FBE929D",
 				"FE0A091FDBFB3E9C31B7A1BD");
@@ -808,14 +337,11 @@
 				MACOSX_DEPLOYMENT_TARGET = "10.14";
 				HEADER_SEARCH_PATHS = (
 					".",
-					".",
-					"/usr/local/Cellar/qt/6.0.3_2/lib/QtWidgets.framework/Headers",
 					"/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework/Headers",
 					"/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework/Headers",
 					".",
 					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
 					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
-					".",
 					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
 					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
 					"/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang");
@@ -832,7 +358,6 @@
 					"-Wextra",
 					"-fPIC",
 					"-DQT_NO_DEBUG",
-					"-DQT_WIDGETS_LIB",
 					"-DQT_GUI_LIB",
 					"-DQT_CORE_LIB");
 				OTHER_CPLUSPLUSFLAGS = (
@@ -844,7 +369,6 @@
 					"-Wextra",
 					"-fPIC",
 					"-DQT_NO_DEBUG",
-					"-DQT_WIDGETS_LIB",
 					"-DQT_GUI_LIB",
 					"-DQT_CORE_LIB");
 				OTHER_LDFLAGS = (
@@ -902,14 +426,11 @@
 				MACOSX_DEPLOYMENT_TARGET = "10.14";
 				HEADER_SEARCH_PATHS = (
 					".",
-					".",
-					"/usr/local/Cellar/qt/6.0.3_2/lib/QtWidgets.framework/Headers",
 					"/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework/Headers",
 					"/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework/Headers",
 					".",
 					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
 					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
-					".",
 					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
 					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
 					"/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang");
@@ -926,7 +447,6 @@
 					"-Wextra",
 					"-fPIC",
 					"-DQT_NO_DEBUG",
-					"-DQT_WIDGETS_LIB",
 					"-DQT_GUI_LIB",
 					"-DQT_CORE_LIB");
 				OTHER_CPLUSPLUSFLAGS = (
@@ -938,7 +458,6 @@
 					"-Wextra",
 					"-fPIC",
 					"-DQT_NO_DEBUG",
-					"-DQT_WIDGETS_LIB",
 					"-DQT_GUI_LIB",
 					"-DQT_CORE_LIB");
 				OTHER_LDFLAGS = (
