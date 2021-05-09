@@ -31,7 +31,15 @@ xcrun -sdk macosx -find ld
 ```
 ./configure -platform macx-clang QMAKE_APPLE_DEVICE_ARCHS=x86_64h
 ./configure -platform macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h"
-
+./configure -target macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h x64_64"
+./configure -target macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h x64_64 arm64"
+./configure -target macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h x64_64 arm64 armv7s"
+./configure -target macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h x64_64 arm64 armv7s armv7"
+./configure -target macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h x64_64 arm64 armv7s armv7 i386"
+./configure -target macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h x64_64 arm64 armv7s armv7 i386 arm64_32"
+./configure -target macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h x64_64 arm64 armv7s armv7 i386 arm64_32 armv7k"
+./configure -target macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h x64_64 arm64 armv7s armv7 i386 arm64_32 armv7k x86_64"
+./configure -target macx-clang QMAKE_APPLE_DEVICE_ARCHS="x86_64 x86_64h x64_64 arm64 armv7s armv7 i386 arm64_32 armv7k x86_64 i386"
 ```
 
 
