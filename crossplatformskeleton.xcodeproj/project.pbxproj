@@ -5,685 +5,1003 @@
 	};
 	objectVersion = 46;
 	objects = {
-
-/* Begin PBXAggregateTarget section */
-		FB10DAB766B387E52A2174B0 /* Qt Preprocess */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "crossplatformskeleton" */;
-			buildPhases = (
-				5E618435888B9D49F8540165 /* Qt Qmake */,
-				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
-			);
-			dependencies = (
-			);
-			name = "Qt Preprocess";
-			productName = "Qt Preprocess";
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/git/crossplatformskeleton -f crossplatformskeleton.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
 		};
-/* End PBXAggregateTarget section */
-
-/* Begin PBXBuildFile section */
-		0550470D4D2C89B03A5147D9 /* mainwindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 04AAF1A06DE7B62550DB0EB1 /* mainwindow.cpp */; settings = {ATTRIBUTES = (); }; };
-		1B7D0E6BE808C17F1734E846 /* moc_mainwindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6D1CD3B9841860E4C5E4A7A1 /* moc_mainwindow.cpp */; settings = {ATTRIBUTES = (); }; };
-		1E312F7A11FEE5BB64123427 /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4180476CBDE07A397E547A59 /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
-		61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */; };
-		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
-		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
-		9AF5D0E838262DE531A20D85 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 9D9893CECB217880A0FDF717 /* QtCore.framework */; };
-		9D62BB1477FF12A4F78D2007 /* qrc_application.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B6D03577FB472A35D716EE8B /* qrc_application.cpp */; settings = {ATTRIBUTES = (); }; };
-		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
-		AB87DB0C57D1138A148603C3 /* qrc_application_locale.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 165F4511BC18E6A14D4F62BB /* qrc_application_locale.cpp */; settings = {ATTRIBUTES = (); }; };
-		B10193784CB5CEC97A5B75B4 /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E8ECDD786FA4500A88FBAA26 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
-		B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1B2543FCC48E9436F21C4F63 /* Metal.framework */; };
-		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
-		EA835AEC0D5FAEA531C11568 /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6E1C567B38FB58F727F82FF6 /* QtGui.framework */; };
-		EC9B1411EC1A211402099A0A /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = AAD167B8655C8EE4E807D709 /* QtWidgets.framework */; };
-		F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 723F90793B2C195E2CCB2233 /* AppKit.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4B88EBE2264721940019AD60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FB10DAB766B387E52A2174B0;
-			remoteInfo = "Qt Preprocess";
+		B6D03577FB472A35D716EE8B = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/qrc_application.cpp";
+			name = "qrc_application.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		99542592E9780B9225F24AA8 /* Embed Frameworks */ = {
+		9D62BB1477FF12A4F78D2007 = {
+			fileRef = "B6D03577FB472A35D716EE8B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		165F4511BC18E6A14D4F62BB = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/qrc_application_locale.cpp";
+			name = "qrc_application_locale.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AB87DB0C57D1138A148603C3 = {
+			fileRef = "165F4511BC18E6A14D4F62BB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E8ECDD786FA4500A88FBAA26 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B10193784CB5CEC97A5B75B4 = {
+			fileRef = "E8ECDD786FA4500A88FBAA26";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		04AAF1A06DE7B62550DB0EB1 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/mainwindow.cpp";
+			name = "mainwindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0550470D4D2C89B03A5147D9 = {
+			fileRef = "04AAF1A06DE7B62550DB0EB1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		79F979BA0C2D9CACA311FF90 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/gen/gen.cpp";
+			name = "gen.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EE68C0748CA07FCF79806661 = {
+			fileRef = "79F979BA0C2D9CACA311FF90";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D2849CEA506C4CF408BBE98D = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue.cpp";
+			name = "univalue.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		10F4E0D693CA29C72845391C = {
+			fileRef = "D2849CEA506C4CF408BBE98D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A76B9832DE6843C220221FD4 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_get.cpp";
+			name = "univalue_get.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0A713C31BB7B5880B7CBF87F = {
+			fileRef = "A76B9832DE6843C220221FD4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		95C481E32F2A183449925BBF = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_read.cpp";
+			name = "univalue_read.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1664331B22D9C9DA48101673 = {
+			fileRef = "95C481E32F2A183449925BBF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CF63B4AA8C0D590B5E742309 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_write.cpp";
+			name = "univalue_write.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BCC057F4E10E3212A3F2A6F3 = {
+			fileRef = "CF63B4AA8C0D590B5E742309";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		ADF945D016175C0917FB7BC7 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/test/no_nul.cpp";
+			name = "no_nul.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		59330D6C212E2812359EBB5F = {
+			fileRef = "ADF945D016175C0917FB7BC7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		347B3088B85E1B725C416DFE = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/test/object.cpp";
+			name = "object.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		61073940BF05665E3746FFE4 = {
+			fileRef = "347B3088B85E1B725C416DFE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2E62A25F47934C35C4759CAB = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/test/test_json.cpp";
+			name = "test_json.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		08D8A1213EC2194D542720D0 = {
+			fileRef = "2E62A25F47934C35C4759CAB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DC28F57DDF97B6C56E719DC2 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/test/unitester.cpp";
+			name = "unitester.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		45631AB8BDE7E47A81D62D3A = {
+			fileRef = "DC28F57DDF97B6C56E719DC2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6D1CD3B9841860E4C5E4A7A1 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/moc_mainwindow.cpp";
+			name = "moc_mainwindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1B7D0E6BE808C17F1734E846 = {
+			fileRef = "6D1CD3B9841860E4C5E4A7A1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		515FE5E337A4D278C8928121 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/ui_mainwindow.h";
+			name = "ui_mainwindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9F3817AE9912E5AD33CC3DC3 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/mainwindow.h";
+			name = "mainwindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F83E6DC46A13339796BD3747 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/config/dummy-app-config.h";
+			name = "dummy-app-config.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B47955DE0B0491E23488CC43 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/forms/ui_mainwindow.h";
+			name = "ui_mainwindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C76D7AD36D3B59982D7275BB = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/univalue-config.h";
+			name = "univalue-config.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5A20348C998AF83A44B8BDD9 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/include/univalue.h";
+			name = "univalue.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		19D9971B900D5A0AF7E972BE = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_escapes.h";
+			name = "univalue_escapes.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5F40691656482D3222415F1B = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/univalue/lib/univalue_utffilter.h";
+			name = "univalue_utffilter.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2315360B41D35716333112B4 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/application.qrc";
+			name = "application.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		136EB494AE8CCD307583795A = {
+			fileRef = "2315360B41D35716333112B4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		32127BBBAFC3B6A3E69F55E6 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/application_locale.qrc";
+			name = "application_locale.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		0787C186070692CE98FF2512 = {
+			fileRef = "32127BBBAFC3B6A3E69F55E6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4180476CBDE07A397E547A59 = {
+			isa = PBXFileReference;
+			path = "/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/features/data/dummy.cpp";
+			name = "dummy.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1E312F7A11FEE5BB64123427 = {
+			fileRef = "4180476CBDE07A397E547A59";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		199369107F42A00DF41E1970 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/src/forms/mainwindow.ui";
+			name = "mainwindow.ui";
+			sourceTree = "<absolute>";
+		};
+		8827080620453EDF051E72EA = {
+			fileRef = "199369107F42A00DF41E1970";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C7880FD12AC26E1327A85361 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/crossplatformskeleton.pro";
+			name = "crossplatformskeleton.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		BD23699E54257F7B2F603A01 = {
+			isa = PBXFileReference;
+			path = "/Users/git/crossplatformskeleton/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"6D1CD3B9841860E4C5E4A7A1",
+				"515FE5E337A4D278C8928121");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		F380266849BE7CF802A85CCF = {
+			isa = PBXGroup;
+			children = (
+				"2315360B41D35716333112B4",
+				"32127BBBAFC3B6A3E69F55E6");
+			name = "src";
+			sourceTree = "<group>";
+		};
+		FB3C908FA6A710AAAE4CE3AA = {
+			isa = PBXGroup;
+			children = (
+				"E05449BA1012197F4161CB7D");
+			name = "src";
+			sourceTree = "<group>";
+		};
+		E05449BA1012197F4161CB7D = {
+			isa = PBXGroup;
+			children = (
+				"199369107F42A00DF41E1970");
+			name = "forms";
+			sourceTree = "<group>";
+		};
+		921315FAA7F261D737F4F4C7 = {
+			isa = PBXGroup;
+			children = (
+				"E8ECDD786FA4500A88FBAA26",
+				"04AAF1A06DE7B62550DB0EB1",
+				"00058F791DC992377A282F8A",
+				"9F3817AE9912E5AD33CC3DC3",
+				"9D6A7FA7287199C1BCEC74AD",
+				"C64A1F20AA88CF2069834919");
+			name = "src";
+			sourceTree = "<group>";
+		};
+		9D6A7FA7287199C1BCEC74AD = {
+			isa = PBXGroup;
+			children = (
+				"F83E6DC46A13339796BD3747");
+			name = "config";
+			sourceTree = "<group>";
+		};
+		C64A1F20AA88CF2069834919 = {
+			isa = PBXGroup;
+			children = (
+				"B47955DE0B0491E23488CC43");
+			name = "forms";
+			sourceTree = "<group>";
+		};
+		00058F791DC992377A282F8A = {
+			isa = PBXGroup;
+			children = (
+				"1C2179BC256CBC60A197A2E9",
+				"9B51A2D7B8E36CC388D4BAD3",
+				"095F6E49313CF8763790CA46",
+				"C76D7AD36D3B59982D7275BB",
+				"94FDB47EBF10F29C475F39BB");
+			name = "univalue";
+			sourceTree = "<group>";
+		};
+		1C2179BC256CBC60A197A2E9 = {
+			isa = PBXGroup;
+			children = (
+				"79F979BA0C2D9CACA311FF90");
+			name = "gen";
+			sourceTree = "<group>";
+		};
+		94FDB47EBF10F29C475F39BB = {
+			isa = PBXGroup;
+			children = (
+				"5A20348C998AF83A44B8BDD9");
+			name = "include";
+			sourceTree = "<group>";
+		};
+		9B51A2D7B8E36CC388D4BAD3 = {
+			isa = PBXGroup;
+			children = (
+				"D2849CEA506C4CF408BBE98D",
+				"A76B9832DE6843C220221FD4",
+				"95C481E32F2A183449925BBF",
+				"CF63B4AA8C0D590B5E742309",
+				"19D9971B900D5A0AF7E972BE",
+				"5F40691656482D3222415F1B");
+			name = "lib";
+			sourceTree = "<group>";
+		};
+		095F6E49313CF8763790CA46 = {
+			isa = PBXGroup;
+			children = (
+				"ADF945D016175C0917FB7BC7",
+				"347B3088B85E1B725C416DFE",
+				"2E62A25F47934C35C4759CAB",
+				"DC28F57DDF97B6C56E719DC2");
+			name = "test";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"F380266849BE7CF802A85CCF");
+			name = "Resources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"B6D03577FB472A35D716EE8B",
+				"165F4511BC18E6A14D4F62BB",
+				"921315FAA7F261D737F4F4C7");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		B8254625CFD509ED2A24A166 = {
+			isa = PBXGroup;
+			children = (
+				"4180476CBDE07A397E547A59");
+			name = "Sources [moc_predefs]";
+			sourceTree = "<group>";
+		};
+		12E908B8A1C3C07C115504F5 = {
+			isa = PBXGroup;
+			children = (
+				"FB3C908FA6A710AAAE4CE3AA");
+			name = "Sources [uic]";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"C7880FD12AC26E1327A85361",
+				"BD23699E54257F7B2F603A01");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/git/crossplatformskeleton -f crossplatformskeleton.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"9D62BB1477FF12A4F78D2007",
+				"AB87DB0C57D1138A148603C3",
+				"B10193784CB5CEC97A5B75B4",
+				"0550470D4D2C89B03A5147D9",
+				"EE68C0748CA07FCF79806661",
+				"10F4E0D693CA29C72845391C",
+				"0A713C31BB7B5880B7CBF87F",
+				"1664331B22D9C9DA48101673",
+				"BCC057F4E10E3212A3F2A6F3",
+				"59330D6C212E2812359EBB5F",
+				"61073940BF05665E3746FFE4",
+				"08D8A1213EC2194D542720D0",
+				"45631AB8BDE7E47A81D62D3A",
+				"1B7D0E6BE808C17F1734E846",
+				"1E312F7A11FEE5BB64123427");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		AAD167B8655C8EE4E807D709 = {
+			isa = PBXFileReference;
+			name = "QtWidgets.framework";
+			path = "/usr/local/Cellar/qt/6.0.3_2/lib/QtWidgets.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		EC9B1411EC1A211402099A0A = {
+			fileRef = "AAD167B8655C8EE4E807D709";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6E1C567B38FB58F727F82FF6 = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		EA835AEC0D5FAEA531C11568 = {
+			fileRef = "6E1C567B38FB58F727F82FF6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		723F90793B2C195E2CCB2233 = {
+			isa = PBXFileReference;
+			name = "AppKit.framework";
+			path = "/System/Library/Frameworks/AppKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F2A75ACAC9DF6A3F4E5711E7 = {
+			fileRef = "723F90793B2C195E2CCB2233";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A8EF9C62A8D4790CBB89CEA = {
+			isa = PBXFileReference;
+			name = "ImageIO.framework";
+			path = "/System/Library/Frameworks/ImageIO.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		61EEC397DC8556BF8C4E36A7 = {
+			fileRef = "3A8EF9C62A8D4790CBB89CEA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1B2543FCC48E9436F21C4F63 = {
+			isa = PBXFileReference;
+			name = "Metal.framework";
+			path = "/System/Library/Frameworks/Metal.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B3FE8FAC746D3D5BB24FA398 = {
+			fileRef = "1B2543FCC48E9436F21C4F63";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9D9893CECB217880A0FDF717 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		9AF5D0E838262DE531A20D85 = {
+			fileRef = "9D9893CECB217880A0FDF717";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2B774D8E4178765CE52EAAF5 = {
+			isa = PBXFileReference;
+			name = "DiskArbitration.framework";
+			path = "/System/Library/Frameworks/DiskArbitration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		A99B2AA0F9CBBDD12BA126A4 = {
+			fileRef = "2B774D8E4178765CE52EAAF5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1A67BEAA744704B29168D39 = {
+			isa = PBXFileReference;
+			name = "IOKit.framework";
+			path = "/System/Library/Frameworks/IOKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8D267F2E4776F0ECA2F49DC8 = {
+			fileRef = "A1A67BEAA744704B29168D39";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D9815BDB5BD9F90D2BC05C5 = {
+			isa = PBXFileReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		E45E51A644D5FC9F942ECE55 = {
+			fileRef = "8D9815BDB5BD9F90D2BC05C5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4B32C2222F82AC56BADEB21 = {
+			isa = PBXFileReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8771A8C96E9C391044035D99 = {
+			fileRef = "D4B32C2222F82AC56BADEB21";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"AAD167B8655C8EE4E807D709",
+				"6E1C567B38FB58F727F82FF6",
+				"723F90793B2C195E2CCB2233",
+				"3A8EF9C62A8D4790CBB89CEA",
+				"1B2543FCC48E9436F21C4F63",
+				"9D9893CECB217880A0FDF717",
+				"2B774D8E4178765CE52EAAF5",
+				"A1A67BEAA744704B29168D39",
+				"8D9815BDB5BD9F90D2BC05C5",
+				"D4B32C2222F82AC56BADEB21");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"EC9B1411EC1A211402099A0A",
+				"EA835AEC0D5FAEA531C11568",
+				"F2A75ACAC9DF6A3F4E5711E7",
+				"61EEC397DC8556BF8C4E36A7",
+				"B3FE8FAC746D3D5BB24FA398",
+				"9AF5D0E838262DE531A20D85",
+				"A99B2AA0F9CBBDD12BA126A4",
+				"8D267F2E4776F0ECA2F49DC8",
+				"E45E51A644D5FC9F942ECE55",
+				"8771A8C96E9C391044035D99");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		99542592E9780B9225F24AA8 = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-			);
+				);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		04AAF1A06DE7B62550DB0EB1 /* mainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mainwindow.cpp; path = /Users/git/crossplatformskeleton/src/mainwindow.cpp; sourceTree = "<absolute>"; };
-		165F4511BC18E6A14D4F62BB /* qrc_application_locale.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_application_locale.cpp; path = /Users/git/crossplatformskeleton/qrc_application_locale.cpp; sourceTree = "<absolute>"; };
-		199369107F42A00DF41E1970 /* mainwindow.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mainwindow.ui; path = /Users/git/crossplatformskeleton/src/forms/mainwindow.ui; sourceTree = "<absolute>"; };
-		1B2543FCC48E9436F21C4F63 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = /System/Library/Frameworks/Metal.framework; sourceTree = "<absolute>"; };
-		2315360B41D35716333112B4 /* application.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = application.qrc; path = /Users/git/crossplatformskeleton/src/application.qrc; sourceTree = "<absolute>"; };
-		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
-		32127BBBAFC3B6A3E69F55E6 /* application_locale.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = application_locale.qrc; path = /Users/git/crossplatformskeleton/src/application_locale.qrc; sourceTree = "<absolute>"; };
-		3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /System/Library/Frameworks/ImageIO.framework; sourceTree = "<absolute>"; };
-		4180476CBDE07A397E547A59 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/features/data/dummy.cpp; sourceTree = "<absolute>"; };
-		515FE5E337A4D278C8928121 /* ui_mainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_mainwindow.h; path = /Users/git/crossplatformskeleton/ui_mainwindow.h; sourceTree = "<absolute>"; };
-		6D1CD3B9841860E4C5E4A7A1 /* moc_mainwindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mainwindow.cpp; path = /Users/git/crossplatformskeleton/moc_mainwindow.cpp; sourceTree = "<absolute>"; };
-		6E1C567B38FB58F727F82FF6 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework; sourceTree = "<absolute>"; };
-		723F90793B2C195E2CCB2233 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
-		9D9893CECB217880A0FDF717 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework; sourceTree = "<absolute>"; };
-		9F3817AE9912E5AD33CC3DC3 /* mainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mainwindow.h; path = /Users/git/crossplatformskeleton/src/mainwindow.h; sourceTree = "<absolute>"; };
-		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
-		AAD167B8655C8EE4E807D709 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /usr/local/Cellar/qt/6.0.3_2/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
-		B47955DE0B0491E23488CC43 /* ui_mainwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_mainwindow.h; path = /Users/git/crossplatformskeleton/src/forms/ui_mainwindow.h; sourceTree = "<absolute>"; };
-		B6D03577FB472A35D716EE8B /* qrc_application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_application.cpp; path = /Users/git/crossplatformskeleton/qrc_application.cpp; sourceTree = "<absolute>"; };
-		BD23699E54257F7B2F603A01 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/git/crossplatformskeleton/.qmake.stash; sourceTree = "<absolute>"; };
-		C59EAA76B8A1EFCBE320C037 /* crossplatformskeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crossplatformskeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7880FD12AC26E1327A85361 /* crossplatformskeleton.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = crossplatformskeleton.pro; path = /Users/git/crossplatformskeleton/crossplatformskeleton.pro; sourceTree = "<absolute>"; };
-		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		E8ECDD786FA4500A88FBAA26 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/git/crossplatformskeleton/src/main.cpp; sourceTree = "<absolute>"; };
-		F83E6DC46A13339796BD3747 /* dummy-app-config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "dummy-app-config.h"; path = "/Users/git/crossplatformskeleton/src/config/dummy-app-config.h"; sourceTree = "<absolute>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC9B1411EC1A211402099A0A /* QtWidgets.framework in Link Binary With Libraries */,
-				EA835AEC0D5FAEA531C11568 /* QtGui.framework in Link Binary With Libraries */,
-				F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */,
-				61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */,
-				B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */,
-				9AF5D0E838262DE531A20D85 /* QtCore.framework in Link Binary With Libraries */,
-				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
-				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
-				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
-				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
-			);
-			name = "Link Binary With Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
+		9606FEF3A9D0039BB899A3FE = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "crossplatformskeleton.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		12E908B8A1C3C07C115504F5 /* Sources [uic] */ = {
-			isa = PBXGroup;
+		FE0A091FDBFB3E9C31B7A1BD = {
 			children = (
-				FB3C908FA6A710AAAE4CE3AA /* src */,
-			);
-			name = "Sources [uic]";
+				"9606FEF3A9D0039BB899A3FE");
+			isa = PBXGroup;
+			name = "Products";
 			sourceTree = "<group>";
 		};
-		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
-			isa = PBXGroup;
+		E8C543AB96796ECAA2E65C57 = {
 			children = (
-				6D1CD3B9841860E4C5E4A7A1 /* moc_mainwindow.cpp */,
-				515FE5E337A4D278C8928121 /* ui_mainwindow.h */,
-			);
-			name = "Generated Sources";
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"87DF60DE337FB58864343E39",
+				"B8254625CFD509ED2A24A166",
+				"12E908B8A1C3C07C115504F5",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "crossplatformskeleton";
 			sourceTree = "<group>";
 		};
-		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				B6D03577FB472A35D716EE8B /* qrc_application.cpp */,
-				165F4511BC18E6A14D4F62BB /* qrc_application_locale.cpp */,
-				921315FAA7F261D737F4F4C7 /* src */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C7880FD12AC26E1327A85361 /* crossplatformskeleton.pro */,
-				BD23699E54257F7B2F603A01 /* .qmake.stash */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		87DF60DE337FB58864343E39 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F380266849BE7CF802A85CCF /* src */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		921315FAA7F261D737F4F4C7 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E8ECDD786FA4500A88FBAA26 /* main.cpp */,
-				04AAF1A06DE7B62550DB0EB1 /* mainwindow.cpp */,
-				9F3817AE9912E5AD33CC3DC3 /* mainwindow.h */,
-				9D6A7FA7287199C1BCEC74AD /* config */,
-				C64A1F20AA88CF2069834919 /* forms */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		9D6A7FA7287199C1BCEC74AD /* config */ = {
-			isa = PBXGroup;
-			children = (
-				F83E6DC46A13339796BD3747 /* dummy-app-config.h */,
-			);
-			name = config;
-			sourceTree = "<group>";
-		};
-		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AAD167B8655C8EE4E807D709 /* QtWidgets.framework */,
-				6E1C567B38FB58F727F82FF6 /* QtGui.framework */,
-				723F90793B2C195E2CCB2233 /* AppKit.framework */,
-				3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */,
-				1B2543FCC48E9436F21C4F63 /* Metal.framework */,
-				9D9893CECB217880A0FDF717 /* QtCore.framework */,
-				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
-				A1A67BEAA744704B29168D39 /* IOKit.framework */,
-				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
-				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */ = {
-			isa = PBXGroup;
-			children = (
-				4180476CBDE07A397E547A59 /* dummy.cpp */,
-			);
-			name = "Sources [moc_predefs]";
-			sourceTree = "<group>";
-		};
-		C64A1F20AA88CF2069834919 /* forms */ = {
-			isa = PBXGroup;
-			children = (
-				B47955DE0B0491E23488CC43 /* ui_mainwindow.h */,
-			);
-			name = forms;
-			sourceTree = "<group>";
-		};
-		E05449BA1012197F4161CB7D /* forms */ = {
-			isa = PBXGroup;
-			children = (
-				199369107F42A00DF41E1970 /* mainwindow.ui */,
-			);
-			name = forms;
-			sourceTree = "<group>";
-		};
-		E8C543AB96796ECAA2E65C57 /* crossplatformskeleton */ = {
-			isa = PBXGroup;
-			children = (
-				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
-				25B08E2869634E9BCBA333A2 /* Generated Sources */,
-				87DF60DE337FB58864343E39 /* Resources */,
-				B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */,
-				12E908B8A1C3C07C115504F5 /* Sources [uic] */,
-				74B182DB50CB5611B5C1C297 /* Supporting Files */,
-				AF39DD055C3EF8226FBE929D /* Frameworks */,
-				FE0A091FDBFB3E9C31B7A1BD /* Products */,
-			);
-			name = crossplatformskeleton;
-			sourceTree = "<group>";
-		};
-		F380266849BE7CF802A85CCF /* src */ = {
-			isa = PBXGroup;
-			children = (
-				2315360B41D35716333112B4 /* application.qrc */,
-				32127BBBAFC3B6A3E69F55E6 /* application_locale.qrc */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		FB3C908FA6A710AAAE4CE3AA /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E05449BA1012197F4161CB7D /* forms */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C59EAA76B8A1EFCBE320C037 /* crossplatformskeleton.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		C19C4C7D892ABE707FB0738A /* crossplatformskeleton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "crossplatformskeleton" */;
+		C5043577C06BFA9F5467690B = {
 			buildPhases = (
-				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
-				D1C883685E82D5676953459A /* Link Binary With Libraries */,
-				30414803F31797EB689AE508 /* Copy Bundle Resources */,
-				99542592E9780B9225F24AA8 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
 			dependencies = (
-				42AE9B63619A14FCC51C73BF /* PBXTargetDependency */,
-			);
-			name = crossplatformskeleton;
-			productName = crossplatformskeleton;
-			productReference = C59EAA76B8A1EFCBE320C037 /* crossplatformskeleton.app */;
-			productType = "com.apple.product-type.application";
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
 		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		6DB9C3763D02B1415CD9D565 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 1020;
+		1753F8FB26D8DEDF7E637541 = {
+			isa = PBXTargetDependency;
+			target = "C5043577C06BFA9F5467690B";
+		};
+		2CCE58C2F152C9F36D4AEAD8 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508",
+				"99542592E9780B9225F24AA8");
+			dependencies = (
+				"1753F8FB26D8DEDF7E637541");
+			productReference = "9606FEF3A9D0039BB899A3FE";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "crossplatformskeleton";
+			productName = "crossplatformskeleton";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "crossplatformskeleton";
+				QMAKE_FULL_VERSION = "1.0.0";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = ".xcode";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.14";
+				HEADER_SEARCH_PATHS = (
+					".",
+					".",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtWidgets.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework/Headers",
+					".",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					".",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/6.0.3_2/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/6.0.3_2/lib",
+					"/usr/local/Cellar/qt/6.0.3_2/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/../Frameworks",
+						"-Wl,-rpath,/usr/local/Cellar/qt/6.0.3_2/lib",
+						"-F/usr/local/Cellar/qt/6.0.3_2/lib");
+				ARCHS = "x86_64";
 			};
-			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "crossplatformskeleton" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "crossplatformskeleton";
+				QMAKE_FULL_VERSION = "1.0.0";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "crossplatformskeleton";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "crossplatformskeleton";
+				QMAKE_FULL_VERSION = "1.0.0";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = ".xcode";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.14";
+				HEADER_SEARCH_PATHS = (
+					".",
+					".",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtWidgets.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework/Headers",
+					".",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					".",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/6.0.3_2/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/6.0.3_2/lib",
+					"/usr/local/Cellar/qt/6.0.3_2/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/../Frameworks",
+						"-Wl,-rpath,/usr/local/Cellar/qt/6.0.3_2/lib",
+						"-F/usr/local/Cellar/qt/6.0.3_2/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "crossplatformskeleton";
+				QMAKE_FULL_VERSION = "1.0.0";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "crossplatformskeleton";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6DB9C3763D02B1415CD9D565 = {
 			hasScannedForEncodings = 1;
-			knownRegions = (
-				en,
-			);
-			mainGroup = E8C543AB96796ECAA2E65C57 /* crossplatformskeleton */;
-			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C19C4C7D892ABE707FB0738A /* crossplatformskeleton */,
-				FB10DAB766B387E52A2174B0 /* Qt Preprocess */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "Copy Bundle Resources";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5E618435888B9D49F8540165 /* Qt Qmake */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "Qt Qmake";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/git/crossplatformskeleton -f qt_makeqmake.mak";
-			showEnvVarsInLog = 0;
-		};
-		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "Qt Preprocessors";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/git/crossplatformskeleton -f qt_preprocess.mak";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D62BB1477FF12A4F78D2007 /* qrc_application.cpp in Compile Sources */,
-				AB87DB0C57D1138A148603C3 /* qrc_application_locale.cpp in Compile Sources */,
-				B10193784CB5CEC97A5B75B4 /* main.cpp in Compile Sources */,
-				0550470D4D2C89B03A5147D9 /* mainwindow.cpp in Compile Sources */,
-				1B7D0E6BE808C17F1734E846 /* moc_mainwindow.cpp in Compile Sources */,
-				1E312F7A11FEE5BB64123427 /* dummy.cpp in Compile Sources */,
-			);
-			name = "Compile Sources";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		42AE9B63619A14FCC51C73BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FB10DAB766B387E52A2174B0 /* Qt Preprocess */;
-			targetProxy = 4B88EBE2264721940019AD60 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		339EE1B2CC4FC24589A0EA95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
-				"ARCHS[sdk=macosx*]" = x86_64;
-				CC = /Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				COPY_PHASE_STRIP = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1.0;
-				DYLIB_CURRENT_VERSION = 1.0.0;
-				ENABLE_BITCODE = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					/usr/local/Cellar/qt/6.0.3_2/lib,
-					/usr/local/Cellar/qt/6.0.3_2/lib,
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					.,
-					.,
-					/usr/local/Cellar/qt/6.0.3_2/lib/QtWidgets.framework/Headers,
-					/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework/Headers,
-					/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework/Headers,
-					.,
-					/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
-					/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers,
-					.,
-					/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
-					/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers,
-					"/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang",
-				);
-				INFOPLIST_FILE = Info.plist;
-				LDPLUSPLUS = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
-				LIBRARY_SEARCH_PATHS = (
-					/usr/local/Cellar/qt/6.0.3_2/lib,
-					/System/Library/Frameworks/,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				OTHER_CFLAGS = (
-					"-pipe",
-					"-O2",
-					"-Wall",
-					"-Wextra",
-					"-fPIC",
-					"-DQT_NO_DEBUG",
-					"-DQT_WIDGETS_LIB",
-					"-DQT_GUI_LIB",
-					"-DQT_CORE_LIB",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-pipe",
-					"-stdlib=libc++",
-					"-O2",
-					"-std=gnu++1z",
-					"-Wall",
-					"-Wextra",
-					"-fPIC",
-					"-DQT_NO_DEBUG",
-					"-DQT_WIDGETS_LIB",
-					"-DQT_GUI_LIB",
-					"-DQT_CORE_LIB",
-				);
-				OTHER_LDFLAGS = (
-					"-stdlib=libc++",
-					"-headerpad_max_install_names",
-					"-Wl,-rpath,@executable_path/../Frameworks",
-					"-Wl,-rpath,/usr/local/Cellar/qt/6.0.3_2/lib",
-					"-F/usr/local/Cellar/qt/6.0.3_2/lib",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = crossplatformskeleton;
-				QMAKE_FULL_VERSION = 1.0.0;
-				QMAKE_PKGINFO_TYPEINFO = "????";
-				QMAKE_SHORT_VERSION = 1.0;
-				QT_LIBRARY_SUFFIX = "";
-				SDKROOT = macosx;
-				SYMROOT = .xcode;
+				"2CCE58C2F152C9F36D4AEAD8",
+				"C5043577C06BFA9F5467690B");
+			attributes = {
+				TargetAttributes = {
+				};
 			};
-			name = Release;
 		};
-		3AA6C32AC930069E80220CF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
-				"ARCHS[sdk=macosx*]" = x86_64;
-				CC = /Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				COPY_PHASE_STRIP = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1.0;
-				DYLIB_CURRENT_VERSION = 1.0.0;
-				ENABLE_BITCODE = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					/usr/local/Cellar/qt/6.0.3_2/lib,
-					/usr/local/Cellar/qt/6.0.3_2/lib,
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					.,
-					.,
-					/usr/local/Cellar/qt/6.0.3_2/lib/QtWidgets.framework/Headers,
-					/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework/Headers,
-					/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework/Headers,
-					.,
-					/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
-					/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers,
-					.,
-					/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
-					/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers,
-					"/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang",
-				);
-				INFOPLIST_FILE = Info.plist;
-				LDPLUSPLUS = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
-				LIBRARY_SEARCH_PATHS = (
-					/usr/local/Cellar/qt/6.0.3_2/lib,
-					/System/Library/Frameworks/,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = (
-					"-pipe",
-					"-O2",
-					"-Wall",
-					"-Wextra",
-					"-fPIC",
-					"-DQT_NO_DEBUG",
-					"-DQT_WIDGETS_LIB",
-					"-DQT_GUI_LIB",
-					"-DQT_CORE_LIB",
-				);
-				OTHER_CPLUSPLUSFLAGS = (
-					"-pipe",
-					"-stdlib=libc++",
-					"-O2",
-					"-std=gnu++1z",
-					"-Wall",
-					"-Wextra",
-					"-fPIC",
-					"-DQT_NO_DEBUG",
-					"-DQT_WIDGETS_LIB",
-					"-DQT_GUI_LIB",
-					"-DQT_CORE_LIB",
-				);
-				OTHER_LDFLAGS = (
-					"-stdlib=libc++",
-					"-headerpad_max_install_names",
-					"-Wl,-rpath,@executable_path/../Frameworks",
-					"-Wl,-rpath,/usr/local/Cellar/qt/6.0.3_2/lib",
-					"-F/usr/local/Cellar/qt/6.0.3_2/lib",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = crossplatformskeleton;
-				QMAKE_FULL_VERSION = 1.0.0;
-				QMAKE_PKGINFO_TYPEINFO = "????";
-				QMAKE_SHORT_VERSION = 1.0;
-				QT_LIBRARY_SUFFIX = "";
-				SDKROOT = macosx;
-				SYMROOT = .xcode;
-			};
-			name = Debug;
-		};
-		6666AA5E688052234F6758D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
-				APPLY_RULES_IN_COPY_FILES = YES;
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				"ARCHS[sdk=macosx*]" = "$(NATIVE_ARCH_ACTUAL)";
-				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				COMPILER_INDEX_STORE_ENABLE = YES;
-				COPY_HEADERS_RUN_UNIFDEF = YES;
-				COPY_PHASE_STRIP = NO;
-				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DEPLOYMENT_POSTPROCESSING = YES;
-				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
-				ENABLE_BITCODE = NO;
-				ENABLE_ON_DEMAND_RESOURCES = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_VERSION = "";
-				GENERATE_MASTER_OBJECT_FILE = YES;
-				GENERATE_PKGINFO_FILE = YES;
-				KEEP_PRIVATE_EXTERNS = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = crossplatformskeleton;
-				QMAKE_FULL_VERSION = 1.0.0;
-				QMAKE_PKGINFO_TYPEINFO = "????";
-				QMAKE_SHORT_VERSION = 1.0;
-				QT_LIBRARY_SUFFIX = "";
-				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = macosx;
-				SKIP_INSTALL = NO;
-				STRIP_INSTALLED_PRODUCT = NO;
-			};
-			name = Release;
-		};
-		77418F46922677BB04ED38DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = NO;
-				APPLY_RULES_IN_COPY_FILES = YES;
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				"ARCHS[sdk=macosx*]" = "$(NATIVE_ARCH_ACTUAL)";
-				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				COMPILER_INDEX_STORE_ENABLE = YES;
-				COPY_HEADERS_RUN_UNIFDEF = YES;
-				COPY_PHASE_STRIP = NO;
-				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DEPLOYMENT_POSTPROCESSING = YES;
-				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
-				ENABLE_BITCODE = NO;
-				ENABLE_ON_DEMAND_RESOURCES = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = "";
-				GENERATE_MASTER_OBJECT_FILE = YES;
-				GENERATE_PKGINFO_FILE = YES;
-				KEEP_PRIVATE_EXTERNS = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = crossplatformskeleton;
-				QMAKE_FULL_VERSION = 1.0.0;
-				QMAKE_PKGINFO_TYPEINFO = "????";
-				QMAKE_SHORT_VERSION = 1.0;
-				QT_LIBRARY_SUFFIX = "";
-				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
-				SDKROOT = macosx;
-				SKIP_INSTALL = NO;
-				STRIP_INSTALLED_PRODUCT = NO;
-			};
-			name = Debug;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "crossplatformskeleton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				77418F46922677BB04ED38DD /* Debug */,
-				6666AA5E688052234F6758D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "crossplatformskeleton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3AA6C32AC930069E80220CF1 /* Debug */,
-				339EE1B2CC4FC24589A0EA95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
 	};
-	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+	rootObject = "6DB9C3763D02B1415CD9D565";
 }
